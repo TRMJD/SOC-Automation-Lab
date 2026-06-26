@@ -1,7 +1,7 @@
 # SOC-Automation-Lab
 Homemade virtual lab that simulates a SOC (Security Operations Center) all on my host PC using Wazuh, Sysmon, and Windows 11 to collect endpoint telemetry, simulate MITRE ATT&CK techniques, and investigate security alerts.
 ## Architecture Diagram
-![Layout](/images/SOC.drawio(1).png)
+![Layout](/images/SOC.drawio (1).png)
 ## Technologies Used
 - VirtualBox
 - Ubuntu 22.04
