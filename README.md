@@ -2,13 +2,13 @@
 Homemade virtual lab that simulates a SOC (Security Operations Center) all on my host PC using Wazuh, Sysmon, and Windows 11 to collect endpoint telemetry, simulate MITRE ATT&CK techniques, and investigate security alerts.
 
 ## Technologies Used
-VirtualBox
-Ubuntu 22.04
-Windows 11
-Wazuh
-Sysmon
-Atomic Red Team
-MITRE ATT&CK
+- VirtualBox
+- Ubuntu 22.04
+- Windows 11
+- Wazuh
+- Sysmon
+- Atomic Red Team
+- MITRE ATT&CK
 
 ## Features
 - Collect Windows endpoint logs
