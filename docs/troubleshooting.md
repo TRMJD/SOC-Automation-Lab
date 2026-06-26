@@ -12,7 +12,7 @@ After generating sysmon events locally, I found that no alerts were appearing in
 
 ## Problem 3: Wazuh Dashboard not Fetching
 Upon logging into the Wazuh Dashboard, the API was not connected.
-- ![Detection Error](../images/Detections.png)
+- ![Fetch Error](../images/Feth-Error.png)
 ### Solution: Restart the Wazuh Services in Ubuntu
 - sudo systemctl restart wazuh-indexer
 - sudo systemctl restart wazuh-manager
