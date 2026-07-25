@@ -1,4 +1,4 @@
-#Installation Guide
+# Installation Guide
 Overview
 
 This project simulates a Security Operations Center (SOC) using Wazuh to monitor a Windows 11 endpoint. Sysmon provides detailed Windows telemetry, while Atomic Red Team is used to simulate adversary behavior based on the MITRE ATT&CK framework.
@@ -61,3 +61,30 @@ Confirm that Sysmon events are visible in the Wazuh dashboard.
 Download the Atomic Red Team atomics repository.
 
 Use the PowerShell module to execute MITRE ATT&CK simulations.
+
+# Running the System
+1. Access the Dashboard
+
+Open a web browser and navigate to:
+
+https://<WAZUH_SERVER_IP>
+
+Log in using the configured Wazuh credentials.
+
+2. Generate Activity
+
+Generate normal system activity or execute Atomic Red Team tests to produce telemetry.
+
+Examples include:
+
+Opening PowerShell
+Executing Command Prompt
+Running Atomic Red Team simulations
+
+3. Investigate Alerts
+
+Navigate to:
+
+Security Events → Events
+
+Review the generated alerts, inspect event metadata, and analyze the associated MITRE ATT&CK techniques.
